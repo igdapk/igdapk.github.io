@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+.flexToCenterFullScreenColumn {
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  padding: 0;
+  margin: 0;
+}
+
+.lightMainFont {
+  font-family: "Raleway";
+  font-weight: 300;
+}
+
+.mainFont {
+  font-family: "Raleway";
+  font-weight: 400;
+}
+
+.heavyMainFont {
+  font-family: "Raleway";
+  font-weight: 700;
+}
+
+.startBackground {
+  background: url("/assets/img/startbg.png") fixed;
+  height: 100vh;
+}
+
+.navbarButton {
+  color: #ffffbb;
+  padding: 12px;
+}

@@ -40,5 +40,12 @@
 
 .navbarButton {
   color: #ffffbb;
-  padding: 12px;
+  border: #ffffbb66 solid 2px;
+  border-radius: 12px;
+  padding: 8px;
+  margin: 2px;
+}
+
+a:hover {
+  color: #ffffff;
 }

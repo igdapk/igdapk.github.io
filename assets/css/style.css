@@ -34,12 +34,26 @@
 }
 
 .startBackground {
+  background: linear-gradient(to right, #444444, #EEEEEE, white, #EEEEEE, #444444);
+  height: 100vh;
+}
+
+.saathGameDevBackground {
   background: url("/assets/img/startbg.png") fixed;
   height: 100vh;
 }
 
+.igdapktop {
+  background-color: black;
+  border: black solid 2px;
+  border-left: black solid 8px;
+  border-right: black solid 8px;
+  border-radius: 12px;
+}
+
 .navbarButton {
   color: #ffffbb;
+  background-color: #22222288;
   border: #ffffbb66 solid 2px;
   border-radius: 12px;
   padding: 8px;

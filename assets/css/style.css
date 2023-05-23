@@ -34,13 +34,18 @@
 }
 
 .startBackground {
-  background: linear-gradient(to right, #444444, #EEEEEE, white, #EEEEEE, #444444);
+  background: linear-gradient(to right, #888888, #EEEEEE, white, #EEEEEE, #888888);
   height: 100vh;
 }
 
 .saathGameDevBackground {
   background: url("/assets/img/startbg.png") fixed;
   height: 100vh;
+}
+
+.igdaMainLogo {
+  width: 860px;
+  padding: 32px;
 }
 
 .igdapktop {
@@ -60,6 +65,37 @@
   margin: 2px;
 }
 
+iframe {
+  display: none;
+  visibility: hidden;
+}
+
 a:hover {
   color: #ffffff;
+}
+
+@media screen and (max-width: 990px) {
+  .navbar {
+    display: none;
+    visibility: hidden;
+  }
+  .igdaMainLogo {
+    width: 420px;
+    padding: 16px;
+  }
+  .lightMainFont {
+    font-family: "Raleway";
+    font-weight: 300;
+    font-size: 14px;
+  }
+  .mainFont {
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .heavyMainFont {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 20px;
+  }
 }
